@@ -9,7 +9,7 @@ function stringLen($string)
     }
     return $cnt;
 }
-
-
-
-echo stringLen('hello world');
+$start = microtime(true);
+echo stringLen('Alexander Sapountzis');
+$time = microtime(true) - $start;
+echo 'This is how long it takes ' . $time . '<br />';
