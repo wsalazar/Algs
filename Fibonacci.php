@@ -8,4 +8,7 @@ function fibonacci($n){
 	}
 	return $result;
 }
-?>
+
+echo fibonacci($argv[1]);
+
+?> 
